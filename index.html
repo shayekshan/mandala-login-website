@@ -5,11 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@500&family=Oswald&family=Poppins:wght@300&family=Roboto&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
     <title>Mandala Login Website</title>
 </head>
 
 <body>
-
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Username</label>
+                    <i class='bx bx-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Password</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <button class="btn" type="submit">login</button>
+                <div class="logreg-link">
+                    <p>Don't have an account? <a class="register-link" href="#">Sign up</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
